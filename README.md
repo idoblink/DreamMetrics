@@ -71,7 +71,7 @@ DreamMetrics/
     └── history.html            # User prediction history
 ```
 
-## 📊 Data & Modeling
+📊 Data & Modeling
 
 The application uses the Sleep Health and Lifestyle Dataset.
 
@@ -91,7 +91,7 @@ The `train_model.py` script splits data (80/20 train/test) and performs 5-fold c
 
 The system defaults to the model with the highest Test $R^2$.
 
-## ⚙️ Installation & Setup
+⚙️ Installation & Setup
 
 1. Clone the Repository
 
@@ -164,7 +164,7 @@ python app.py
 
 Access the app at http://127.0.0.1:5000/.
 
-## 📝 Usage
+📝 Usage
 
 Sign Up/Login: Create an account to access the prediction tools.
 
@@ -178,7 +178,7 @@ View Results: Get your Sleep Quality Score, Health Breakdown, and tailored recom
 
 History: Visit the `/history` page to track how your sleep predictions have changed over time.
 
-## 🔮 Future Improvements
+🔮 Future Improvements
 
 * Integrate Gradient Boosting (XGBoost/LightGBM) models.
 * Add data visualization charts to the User History page.
